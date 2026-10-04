@@ -1,0 +1,334 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Set up project structure and dependencies": [
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791072364697
+      },
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791072371485
+      },
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791072390638
+      }
+    ],
+    "2.1 Implement `decode_image(file_bytes: bytes) -> np.ndarray`": [
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791072365392
+      },
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791072397346
+      },
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791072608328
+      }
+    ],
+    "2.3 Implement `encode_image_png(image: np.ndarray) -> bytes`": [
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791072365504
+      },
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791072612095
+      },
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791073144819
+      }
+    ],
+    "3.1 Define `PipelineConfig` dataclass with all fields and defaults as specified in the design": [
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791072365602
+      },
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791072397615
+      },
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791072608900
+      }
+    ],
+    "3.2 Implement `apply_grayscale(image)`": [
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791072365700
+      },
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791072612661
+      },
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791073146975
+      }
+    ],
+    "3.4 Implement `apply_gaussian_blur(image, kernel_size)`": [
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791072365795
+      },
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791072613178
+      },
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791073146008
+      }
+    ],
+    "3.5 Implement `apply_median_blur(image, kernel_size)`": [
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791072365888
+      },
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791072613808
+      },
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791073146559
+      }
+    ],
+    "3.6 Implement `apply_bilateral_filter(image, diameter, sigma_color, sigma_space)`": [
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791072366001
+      },
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791072614665
+      },
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791073145508
+      }
+    ],
+    "3.8 Implement `apply_canny(image, low, high)`": [
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791072366092
+      },
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791073151442
+      },
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791073235429
+      }
+    ],
+    "3.9 Implement `apply_sobel(image, kernel_size)`": [
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791072366156
+      },
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791073152068
+      },
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791073236065
+      }
+    ],
+    "3.10 Implement `apply_laplacian(image, kernel_size)`": [
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791072366251
+      },
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791073152423
+      },
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791073236224
+      }
+    ],
+    "4.1 Implement `run_pipeline(image, config)`": [
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791072366405
+      },
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791073239226
+      },
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791073287490
+      }
+    ],
+    "5. Checkpoint — Ensure all transform and utility tests pass": [
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791072366486
+      },
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791073300499
+      },
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791073760607
+      }
+    ],
+    "6.1 Implement `render_sidebar() -> PipelineConfig`": [
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791072366575
+      },
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791073772008
+      },
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791073881672
+      }
+    ],
+    "6.2 Implement `show_side_by_side(source, processed)`": [
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791072366654
+      },
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791073772560
+      },
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791073882173
+      }
+    ],
+    "6.3 Implement `show_download_button(processed)`": [
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791072366724
+      },
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791073772966
+      },
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791073882613
+      }
+    ],
+    "7. Implement the application entry point (`app.py`)": [
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791072366817
+      },
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791073885703
+      },
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791073924852
+      }
+    ],
+    "8. Final checkpoint — Ensure all tests pass": [
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791072366884
+      },
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791073927821
+      }
+    ],
+    "2. Implement image I/O utilities (`utils.py`)": [
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791073144911
+      }
+    ],
+    "3. Implement individual transform functions (`transforms.py`)": [
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791073236437
+      }
+    ],
+    "4. Implement the transform pipeline (`transforms.py`)": [
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791073287608
+      }
+    ],
+    "6. Implement Streamlit UI helpers (`ui.py`)": [
+      {
+        "executionId": "a00f09c9-1817-493d-a702-2ab6b115bdde",
+        "chatSessionId": "sess_2a72e2a2-6d9b-450d-91c7-6f4d49945569",
+        "timestamp": 1791073882727
+      }
+    ]
+  }
+}
